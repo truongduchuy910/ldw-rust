@@ -2,7 +2,7 @@
 
 Learn, do and write the Rust programming language.
 
-### Từ vựng
+#### Từ vựng
 
 - contribution | ,kɔntri'bju:∫n | sự đóng góp.
 - assume | ə'sju:m | cho rằng, thừa nhận, trên cơ sở giả thuyết.
@@ -44,3 +44,16 @@ Lưu ý thứ hai là `macros` khác với `functions`. Cú pháp `macros` có t
 
 Rust là một ngôn ngữ biên dịch, phải chạy toàn bộ mã nguồn để xuất bản chương
 trình.
+
+### Hello, Cargo!
+
+#### Từ vựng
+
+- The vast majority | đa số.
+- The rest of | phần còn lại của.
+- Whether | 'weðə | liệu rằng.
+
+cargo sẽ không `compiling` lại nếu không có thay đổi trong mã nguồn.
+
+Xài `cargo check` sẽ nhanh hơn `cargo build` nếu muốn xem nhanh các lỗi nhưng
+chưa cần chạy.
