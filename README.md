@@ -33,3 +33,14 @@ Learn, do and write the Rust programming language.
 - embrace | im'breis | bao quát.
 - potential | pə'ten∫l | tiềm năng.
 - intended | in'tendid | mong đợi.
+
+### Hello, world!
+
+Chương trình rust sẽ thực thi hàm `main` trong tệp của bạn.
+
+Nguyên tắc thụt dòng của rust là kiểu: 4 dấu `space` chứ không phải 2 dấu `tab`.
+
+Lưu ý thứ hai là `macros` khác với `functions`. Cú pháp `macros` có thêm dấu `!`
+
+Rust là một ngôn ngữ biên dịch, phải chạy toàn bộ mã nguồn để xuất bản chương
+trình.
