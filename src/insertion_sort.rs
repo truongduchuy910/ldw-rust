@@ -18,16 +18,16 @@ mod insertion_sort {
 
     #[test]
     fn sort() {
-        let mut input: [i32; 5] = [2,1, 4,3, 5];
+        let mut input: [i32; 5] = [2, 1, 4, 3, 5];
         insertion_sort(&mut input);
         assert_eq!(input, [1, 2, 3, 4, 5]);
     }
 
     #[test]
     fn duplicate() {
-        let mut input: [i32; 5] = [2,1, 4,3, 2];
+        let mut input: [i32; 5] = [2, 1, 4, 3, 2];
         insertion_sort(&mut input);
-        assert_eq!(input, [1,2, 2, 3, 4]);
+        assert_eq!(input, [1, 2, 2, 3, 4]);
     }
 
     #[test]
@@ -39,9 +39,8 @@ mod insertion_sort {
 
     #[test]
     fn withzero() {
-        let mut input: [i32; 5] = [4,3,2,0,0];
+        let mut input: [i32; 5] = [4, 3, 2, 0, 0];
         insertion_sort(&mut input);
-        assert_eq!(input, [0,0,2,3,4]);
+        assert_eq!(input, [0, 0, 2, 3, 4]);
     }
-
 }
